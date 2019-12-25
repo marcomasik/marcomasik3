@@ -1,0 +1,120 @@
+@import "../variables";
+
+#navbar {
+  transform: translateY(-150px);
+  transition: transform 400ms ease-in;
+  color: $blackcolor;
+  padding: 3.75em 0 .5em 0;
+  font-family: sans-serif;
+  background-color: $whitecolor;
+  border-radius: 0 0 2em 2em;
+  ul {
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-padding-start: 0;
+    li {
+      list-style: none;
+      font-size: 1.5em;
+      margin-top: .5em;
+    }
+  }
+}
+
+#navbar.slideIn {
+  transform: translateY(-125px);
+}
+
+#navbar.slideOut {
+  transform: translateY(-200%);
+}
+
+.menu--mobile {
+  display: none;
+  position: absolute;
+  height: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  box-sizing: border-box;
+  button {
+    color: $whitecolor;
+    z-index: 3;
+    position: absolute;
+    mix-blend-mode: difference;
+    top: 25px;
+    left: $mobile-margin;
+    padding: 0;
+    border: none;
+  }
+  .title--start--mobile {
+      font-weight: normal;
+      color: $whitecolor;
+      mix-blend-mode: difference;
+      position: absolute;
+      z-index: 3;
+      margin-block-start: 0;
+      margin-block-end: 0;
+      top: 20px;
+      width: 230px;
+      height: 50px;
+      left: 50%;
+      margin-left: -115px;
+      -webkit-margin-before: 0;
+      -webkit-margin-after: 0;
+  }
+  .tagline--start--mobile {
+      font-weight: normal;
+      color: $whitecolor;
+      width: 100%;
+      text-align: center;
+      margin-top: 3em;
+      font-size: 1.4em;
+  }
+  @media screen and (max-width: $break-mobile-max) {
+    display: block;
+  }
+}
+
+.container--mobile-menu--pages{
+  .tagline--start--mobile {
+    display: none;
+  }
+  #navbar.slideIn {
+  transform: translateY(-10px);
+  }
+  &--skills {
+    background: #85CAD0;
+  }
+  &--works, &--contact {
+    #navbar {
+      box-shadow: 0 0 0 5px $blackcolor;
+    }
+    button {
+      mix-blend-mode: normal;
+    }
+    .title--start--mobile {
+      color: $blackcolor;
+      mix-blend-mode: normal;
+    }
+    .hamburger {
+      .is-active {
+        background: $blackcolor;
+        mix-blend-mode: normal;
+      }
+    }
+    .hamburger {
+      .hamburger-inner {
+        background: $blackcolor;
+        mix-blend-mode: normal;
+        &::before, &::after {
+          background: $blackcolor;
+          mix-blend-mode: normal;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: $break-mobile-max) {
+    padding-bottom: 4em;
+  }
+}

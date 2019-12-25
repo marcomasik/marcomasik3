@@ -1,0 +1,17 @@
+@import "../variables";
+
+.container--backbutton {
+	display: flex;
+	svg {
+		margin-bottom: -4px;
+	}
+	a {
+		font-size: 1.716em;
+		&:hover {
+			color: $blackhover;
+		}
+		@media screen and (max-width: $break-mobile-max) {
+            font-size: 1.25em;
+        }
+	}
+}

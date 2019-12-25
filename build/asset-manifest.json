@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/marcomasik2/static/css/main.8a5a38e5.chunk.css",
+    "main.js": "/marcomasik2/static/js/main.dd9fc834.chunk.js",
+    "main.js.map": "/marcomasik2/static/js/main.dd9fc834.chunk.js.map",
+    "runtime-main.js": "/marcomasik2/static/js/runtime-main.0ea15c51.js",
+    "runtime-main.js.map": "/marcomasik2/static/js/runtime-main.0ea15c51.js.map",
+    "static/js/2.4a2ee3d9.chunk.js": "/marcomasik2/static/js/2.4a2ee3d9.chunk.js",
+    "static/js/2.4a2ee3d9.chunk.js.map": "/marcomasik2/static/js/2.4a2ee3d9.chunk.js.map",
+    "index.html": "/marcomasik2/index.html",
+    "precache-manifest.ea0a5c2e3ae1961b22934b9fc5787ba1.js": "/marcomasik2/precache-manifest.ea0a5c2e3ae1961b22934b9fc5787ba1.js",
+    "service-worker.js": "/marcomasik2/service-worker.js",
+    "static/css/main.8a5a38e5.chunk.css.map": "/marcomasik2/static/css/main.8a5a38e5.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ea15c51.js",
+    "static/js/2.4a2ee3d9.chunk.js",
+    "static/css/main.8a5a38e5.chunk.css",
+    "static/js/main.dd9fc834.chunk.js"
+  ]
+}

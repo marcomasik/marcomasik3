@@ -1,0 +1,87 @@
+@import "../../variables";
+
+.container--start {
+	height: 100vh;
+	color: $whitecolor;
+	.container--video {
+		padding: 4em 6em 4em 6em;
+		display: flex;
+	    justify-content: center;
+	    #ocean-video {
+			position: absolute;
+			z-index: -1;
+			width: calc(100% - 12em);
+			height: calc(100% - 8em);
+			border-radius: 2em;
+			object-fit: cover;
+			@media screen and (max-width: $break-tablet-min) {
+				width: 100%;
+				height: 100%;
+				border-radius: 0;
+			}
+		}
+		.container--text {
+			position: relative;
+			width: calc(100% - 12em);
+			height: calc(100vh - 8em);
+			max-width: 1200px;
+			.title--start--large {
+				width: 100%;
+				font-weight: normal;
+				margin-block-start: 0;
+			    margin-block-end: 0;
+			    margin-top: 0.8em;
+			    @media screen and (max-width: $break-tablet-min) {
+			    	margin-top: 2em;
+			    }
+			}
+			.tagline--start--large {
+				font-weight: normal;
+				margin-block-start: 0;
+			    margin-block-end: 0;
+			    margin-top: 1em;
+			    text-align: center;
+			    @media screen and (max-width: $break-mobile-max) {
+			    	display: none;
+			    }
+			}
+			.menu--start {
+				position: absolute;
+				width: 100%;
+				padding-inline-start: 0;
+				margin-left: 0.5em;
+				bottom: 0;
+				li {
+					list-style-type: none;
+					margin-bottom: 0.5em;
+					a {
+						&:hover {
+					    	color: $whitehover;
+					    }
+					    @media screen and (max-width: $break-tablet-min) {
+							font-size: 2em;
+						}
+					}
+				}
+				@media screen and (max-width: $break-tablet-min) {
+					margin-left: .25em;
+				}
+				@media screen and (max-width: $break-mobile-max) {
+					display: none;
+				}
+			}
+			@media screen and (max-width: $break-tablet-min) {
+				height: 100vh;
+			}
+			@media screen and (max-width: $break-mobile-max) {
+				display: none;
+			}
+		}
+		@media screen and (max-width: $break-tablet-min) {
+			padding: 0;
+		}
+	}
+	@media screen and (max-width: $break-mobile-max) {
+		height: auto;
+	}
+}

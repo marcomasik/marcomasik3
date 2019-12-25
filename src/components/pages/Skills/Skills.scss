@@ -1,0 +1,65 @@
+@import "../../variables";
+
+.container--skills {
+	height: calc(100vh - 12em);
+	width: 100%;
+	background: $bluecolor;
+	color: $whitecolor;
+	h2 {
+		font-size: 2.286em;
+		margin-block-start: 0;
+		margin-block-end: 1em;
+		@media screen and (max-width: $break-mobile-max) {
+			font-size: 1.25em;
+		}
+	}
+	p {
+		font-size: 1.716em;
+		@media screen and (max-width: $break-mobile-max) {
+			font-size: .9em;
+		}
+	}
+	&--row {
+		display: flex;
+		justify-content: space-between;
+		.container--skilltext {
+			margin-top: 2em;
+			width: 18em;
+			.title--skilltext {
+				h2{
+					height: 5em;
+					@media screen and (max-width: $break-tablet-max) {
+						height: auto;
+					}
+				}
+			}
+			@media screen and (max-width: $break-tablet-max) {
+				width: auto;
+			}
+			@media screen and (max-width: $break-mobile-max) {
+				margin-top: 0;
+			}
+		}
+		@media screen and (max-width: $break-tablet-max) {
+			flex-direction: column;
+		}
+	}
+	&--column {
+		display: flex;
+		flex-direction: column;
+		.container--skilltext {
+			&:nth-child(2) {
+				svg {
+					width: 60px;
+				}
+			}
+		}
+	}
+	@media screen and (max-width: $break-tablet-max) {
+		height: auto;
+	}
+	@media screen and (min-width: $break-large) {
+		height: auto;
+		padding-bottom: 4em;
+	}
+}

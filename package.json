@@ -1,0 +1,49 @@
+{
+  "name": "marcomasik2",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://marcomasik.github.io/marcomasik2",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "mdbreact": "^4.22.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-fittext": "^1.0.0",
+    "react-hamburger-button": "0.0.1",
+    "react-headroom": "^3.0.0",
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.8.0",
+    "react-pose": "^4.0.9",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.0"
+  }
+}
