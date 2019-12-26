@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Menu } from '../../menu/Menu.js';
+import { Menu } from '../../ui/menu/Menu.js';
 import { Skills1 } from './Skills1.js';
 import { Skills2 } from './Skills2.js';
 import { Link } from "react-router-dom";

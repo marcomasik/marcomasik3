@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import { Link } from "react-router-dom";
-import { MobileMenu } from '../MobileMenu/MobileMenu.js';
+import { MobileMenu } from './MobileMenu/MobileMenu.js';
 import Headroom from "react-headroom";
 
 class Menu extends Component {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Menu } from '../../menu/Menu.js';
+import { Menu } from '../../ui/menu/Menu.js';
 import { Link } from "react-router-dom";
 import { FiMail } from 'react-icons/fi';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';

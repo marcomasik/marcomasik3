@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import { Link } from "react-router-dom";
-import { MobileMenu } from '../../MobileMenu/MobileMenu.js';
+import { MobileMenu } from '../../ui/menu/MobileMenu/MobileMenu.js';
 import posed, { PoseGroup } from 'react-pose';
 
 import {Helmet} from "react-helmet";

@@ -1,6 +1,7 @@
 /* App.js 
 
 Contains the routes to all the pages available on marcomasik.com.
+Switching between those pages is enabled here. 
 
 */
 
@@ -22,7 +23,7 @@ import { Farest } from "./components/pages/Works/WorkPages/Farest.js";
 import { Contact } from "./components/pages/Contact/Contact.js";
 
 
-/* Fading animation transition between pages */
+/* Fading animation transition when switching to a page */
 const Fading = posed.div({
   enter: {
     opacity: 1

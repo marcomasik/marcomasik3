@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Menu } from '../../menu/Menu.js';
+import { Menu } from '../../ui/menu/Menu.js';
 import { Link } from "react-router-dom";
 import { WorkItem } from './WorkItem.js';
 import {Helmet} from "react-helmet";

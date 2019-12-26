@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Menu } from '../../../menu/Menu.js';
+import { Menu } from '../../../ui/menu/Menu.js';
 import { Link } from "react-router-dom";
-import { BackButton } from '../../../BackButton/BackButton.js';
+import { BackButton } from '../../../ui/BackButton/BackButton.js';
 
 import posed, { PoseGroup } from 'react-pose';
 
