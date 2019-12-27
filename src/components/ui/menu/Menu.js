@@ -1,3 +1,12 @@
+/* Menu.js
+
+The menu is the main navigation interface, used on almost every page, except Start.js
+Desktop and tablet version of the menu is defined in this class.
+Mobile version is defined in a separate class and is nested in this class.
+Headroom changes the menu to fixed after scrolling upwards.
+
+*/
+
 import React, { Component } from 'react';
 
 import { Link } from "react-router-dom";
@@ -10,27 +19,27 @@ class Menu extends Component {
 
 		return (
 			<React.Fragment>
-			<MobileMenu />
-			<Headroom>
-				<div className="container--menu">
-					<div className="container--menu--half">
-						<h2><Link to="/">MARCO MASIK</Link></h2>
+				<MobileMenu />
+				<Headroom>
+					<div className="container--menu">
+						<div className="container--menu--half">
+							<h2><Link to="/">MARCO MASIK</Link></h2>
+						</div>
+						<div className="container--menu--half">
+							<ul class="menu nav">
+								<li className="menu__element--current">
+									<h2>{this.props.currentPage}</h2>
+								</li>
+								<li className="menu__element">
+									<h2>{this.props.otherPage1}</h2>
+								</li>
+								<li className="menu__element">
+									<h2>{this.props.otherPage2}</h2>
+								</li>
+							</ul>
+						</div>
 					</div>
-					<div className="container--menu--half">
-						<ul class="menu nav">
-							<li className="menu__element--current">
-								<h2>{this.props.currentPage}</h2>
-							</li>
-							<li className="menu__element">
-								<h2>{this.props.otherPage1}</h2>
-							</li>
-							<li className="menu__element">
-								<h2>{this.props.otherPage2}</h2>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</Headroom>
+				</Headroom>
 			</React.Fragment>
 
 			)

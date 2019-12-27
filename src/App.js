@@ -25,38 +25,38 @@ import { Contact } from "./components/pages/Contact/Contact.js";
 
 /* Fading animation transition when switching to a page */
 const Fading = posed.div({
-  enter: {
-    opacity: 1
-  },
-  exit: {
-    opacity: 0
-  }
+    enter: {
+        opacity: 1
+    },
+    exit: {
+        opacity: 0
+    }
 });
 
 const App = () => (
-  <BrowserRouter>
-    <Route
-      render={({ location }) => (
-      <PoseGroup>
-        <Fading key={location.pathname}>
-          <Switch location={location}>
-            <Route exact path="/" component={Start} key="start" />
-            <Route exact path="/skills" component={Skills} key="skills" />
-            <Route exact path="/works" component={Works} key="works" />
-            <Route exact path="/works/november" component={November} key="november" />
-            <Route exact path="/works/swarm" component={Swarm} key="swarm" />
-            <Route exact path="/works/borneo" component={Borneo} key="borneo" />
-            <Route exact path="/works/muskinn" component={Muskinn} key="muskinn" />
-            <Route exact path="/works/languagestudio" component={Languagestudio} key="languagestudio" />
-            <Route exact path="/works/hungaroplant" component={Hungaroplant} key="hungaroplant" />
-            <Route exact path="/works/farest" component={Farest} key="farest" />
-            <Route exact path="/contact" component={Contact} key="contact" />
-          </Switch>
-        </Fading>
-      </PoseGroup>
-      )}
-    />
-  </BrowserRouter>
+    <BrowserRouter>
+        <Route
+            render={({ location }) => (
+                <PoseGroup>
+                    <Fading key={location.pathname}>
+                        <Switch location={location}>
+                            <Route exact path="/" component={Start} key="start" />
+                            <Route exact path="/skills" component={Skills} key="skills" />
+                            <Route exact path="/works" component={Works} key="works" />
+                            <Route exact path="/works/november" component={November} key="november" />
+                            <Route exact path="/works/swarm" component={Swarm} key="swarm" />
+                            <Route exact path="/works/borneo" component={Borneo} key="borneo" />
+                            <Route exact path="/works/muskinn" component={Muskinn} key="muskinn" />
+                            <Route exact path="/works/languagestudio" component={Languagestudio} key="languagestudio" />
+                            <Route exact path="/works/hungaroplant" component={Hungaroplant} key="hungaroplant" />
+                            <Route exact path="/works/farest" component={Farest} key="farest" />
+                            <Route exact path="/contact" component={Contact} key="contact" />
+                        </Switch>
+                    </Fading>
+                </PoseGroup>
+            )}
+        />
+    </BrowserRouter>
 );
 
 export default App;
