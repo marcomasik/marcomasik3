@@ -1,5 +1,6 @@
-/* Skills.js
+/* Works.js
 
+Works page of marcomasik.com
 Top parent of Work components.
 Contains the menu and six thumbnails *WorkItem*, that links to particular work pages.
 

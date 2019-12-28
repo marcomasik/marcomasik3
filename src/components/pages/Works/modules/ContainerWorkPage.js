@@ -1,3 +1,18 @@
+/* ContainerWorkPage.js
+
+Structure of a single work page.
+Contains the menu and the work page content.
+Transition animation is realized by react pose.
+"title--workpage small-view"(mobile) displays the same content as "title--workpage large-view"(desktop/ipad)
+
+titleWorkPage = Title of the workpage
+videoWorkPage = Path to video about the work
+textWorkPage= Description text of the work
+Values are set in Works.js for these props.
+
+*/
+
+
 import React, { Component } from 'react';
 import { Menu } from '../../../ui/menu/Menu.js';
 import { Link } from "react-router-dom";

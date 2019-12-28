@@ -1,3 +1,11 @@
+/* Contact.js
+
+Contact page of marcomasik.com
+Contains the menu and contact informations.
+This page uses react icons.
+
+*/
+
 import React, { Component } from 'react';
 import { Menu } from '../../ui/menu/Menu.js';
 import { Link } from "react-router-dom";

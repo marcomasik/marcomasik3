@@ -1,3 +1,14 @@
+/* WorkItem.js
+
+This component represents a thumbnail on the page, where all the works all listed.
+
+titleWorkItem = Title of the work page
+descriptionWorkItem = Description of the work, type of business and technology used
+workItemImage = Path to the a screenshot about the work
+Values are set in Works.js to these props.
+
+ */
+
 import React, { Component } from 'react';
 
 class WorkItem extends Component {

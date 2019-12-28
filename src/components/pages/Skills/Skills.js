@@ -1,5 +1,6 @@
 /* Skills.js
 
+Skills page of marcomasik.com
 Top parent of Skills components.
 Contains the menu and two sections of skill content.
 
