@@ -1,3 +1,13 @@
+/* SkillText.js
+
+Component for the headlines and texts in skills.
+
+titleSkillText = Headline of a text block
+textSkillText = Bodytext of a text block
+Values set in the individual skill section components(Skills1 and Skills2) for these props.
+
+*/
+
 import React, {Component} from 'react';
 
 class SkillText extends Component {

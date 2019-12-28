@@ -1,3 +1,9 @@
+/* Skills1.js
+
+Headlines and texts for the first skills section.
+
+*/
+
 import React, { Component } from 'react';
 import { ContainerSkills } from './ContainerSkills.js';
 import { SkillText } from './SkillText.js';

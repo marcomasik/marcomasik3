@@ -1,7 +1,8 @@
 /* MobileMenu.js
 
 Defines the mobile version of the menu.
-Hamburgericon toggles the visibility of the mobile menu (the icon layout and animation is defined separately in HamburgerIcon.js and HamburgergIcon.scss)
+*HamburgerIcon* toggles the visibility of the mobile menu, *SlidingMenuLayer*
+*ReactFitText* changes the font size only of the title according to the window size.
 
 */
 
@@ -21,12 +22,14 @@ const SlidingMenuLayer = ({ visible }) => (
 
 class MobileMenu extends Component {
 
+    /* Binding handlClick(), and set the initial visible state false */
     constructor(props) {
         super(props)
         this.handleClick = this.handleClick.bind(this)
         this.state = { visible: false }
     }
 
+    /* handlClick() toggles state of visible */
     handleClick() {
         this.setState(prev => ({ visible: !prev.visible }))
     }

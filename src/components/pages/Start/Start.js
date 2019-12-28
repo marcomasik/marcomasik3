@@ -1,3 +1,12 @@
+/* Start.js
+
+Frontpage of marcomasik.com
+Has its own special menu *menu--start*, besides the reusable mobile version *MobileMenu*.
+Up and downscale animation when enterin or exiting page is realised with react pose *StartScale*
+*ReactFitText* changes the font size of the title, tagline and menu elements according to the window size.
+
+*/
+
 import React, { Component } from 'react';
 
 import { Link } from "react-router-dom";
@@ -7,12 +16,12 @@ import posed, { PoseGroup } from 'react-pose';
 import {Helmet} from "react-helmet";
 
 const StartScale = posed.div({
-  enter: {
-    scale: 1
-  },
-  exit: {
-    scale: .1
-  }
+ 	enter: {
+    	scale: 1
+  	},
+  	exit: {
+    	scale: .1
+  	}
 });
 
 class Start extends Component {	

@@ -5,6 +5,10 @@ Desktop and tablet version of the menu is defined in this class.
 Mobile version is defined in a separate class and is nested in this class.
 Headroom changes the menu to fixed after scrolling upwards.
 
+currentPage = the largest primary menu element
+otherPage1 &  otherPage2 = the smaller secondary menu element
+Values are set in each individual page components(Skills, Works, Contact) for these props.
+
 */
 
 import React, { Component } from 'react';
