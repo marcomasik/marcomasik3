@@ -6,8 +6,8 @@ React icons are used in this component.
 */
 
 import React, { Component } from 'react';
-import { ContainerSkills } from './ContainerSkills.js';
-import { SkillText } from './SkillText.js';
+import { ContainerSkills } from './../modules/ContainerSkills.js';
+import { SkillText } from './../modules/SkillText.js';
 import { FaMobileAlt, FaTabletAlt, FaDesktop, FaCode, FaTools } from 'react-icons/fa';
 
 class Skills2 extends Component {

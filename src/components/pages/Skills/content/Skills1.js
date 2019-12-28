@@ -5,8 +5,8 @@ Headlines and texts for the first skills section.
 */
 
 import React, { Component } from 'react';
-import { ContainerSkills } from './ContainerSkills.js';
-import { SkillText } from './SkillText.js';
+import { ContainerSkills } from './../modules/ContainerSkills.js';
+import { SkillText } from './../modules/SkillText.js';
 import { IoIosArrowDown } from 'react-icons/io';
 
 class Skills1 extends Component {

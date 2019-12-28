@@ -1,7 +1,14 @@
+/* Skills.js
+
+Top parent of Work components.
+Contains the menu and six thumbnails *WorkItem*, that links to particular work pages.
+
+*/
+
 import React, { Component } from 'react';
 import { Menu } from '../../ui/menu/Menu.js';
 import { Link } from "react-router-dom";
-import { WorkItem } from './WorkItem.js';
+import { WorkItem } from './modules/WorkItem.js';
 import {Helmet} from "react-helmet";
 
 class Works extends Component {

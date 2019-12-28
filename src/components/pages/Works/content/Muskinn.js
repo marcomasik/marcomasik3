@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ContainerWorkPage } from './ContainerWorkPage.js'
+import { ContainerWorkPage } from '../modules/ContainerWorkPage.js'
 
 class Muskinn extends Component {
 	

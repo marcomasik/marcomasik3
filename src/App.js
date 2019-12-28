@@ -13,13 +13,13 @@ import './main.css';
 import { Start } from './components/pages/Start/Start.js';
 import { Skills } from "./components/pages/Skills/Skills.js";
 import { Works } from "./components/pages/Works/Works.js";
-import { November } from "./components/pages/Works/WorkPages/November.js";
-import { Swarm } from "./components/pages/Works/WorkPages/Swarm.js";
-import { Borneo } from "./components/pages/Works/WorkPages/Borneo.js";
-import { Muskinn } from "./components/pages/Works/WorkPages/Muskinn.js";
-import { Languagestudio } from "./components/pages/Works/WorkPages/Languagestudio.js";
-import { Hungaroplant } from "./components/pages/Works/WorkPages/Hungaroplant.js";
-import { Farest } from "./components/pages/Works/WorkPages/Farest.js";
+import { November } from "./components/pages/Works/content/November.js";
+import { Swarm } from "./components/pages/Works/content/Swarm.js";
+import { Borneo } from "./components/pages/Works/content/Borneo.js";
+import { Muskinn } from "./components/pages/Works/content/Muskinn.js";
+import { Languagestudio } from "./components/pages/Works/content/Languagestudio.js";
+import { Hungaroplant } from "./components/pages/Works/content/Hungaroplant.js";
+import { Farest } from "./components/pages/Works/content/Farest.js";
 import { Contact } from "./components/pages/Contact/Contact.js";
 
 
