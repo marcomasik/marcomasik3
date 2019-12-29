@@ -1,6 +1,10 @@
 /* Colors */
 /* Breakpoints for media queries*/
 /* Magic numbers */
+/*	mobile-margin
+	Calculates the general margin on mobile, according to the width of the title
+	((((((width of view) - (width of title)) / 2) - (indicator number to margin width)) / 2)
+*/
 html, body {
   margin: 0;
   padding: 0;
@@ -50,48 +54,18 @@ span {
 /* Colors */
 /* Breakpoints for media queries*/
 /* Magic numbers */
+/*	mobile-margin
+	Calculates the general margin on mobile, according to the width of the title
+	((((((width of view) - (width of title)) / 2) - (indicator number to margin width)) / 2)
+*/
 
 /* Colors */
 /* Breakpoints for media queries*/
 /* Magic numbers */
-.container--contact {
-  display: flex; }
-  .container--contact .container--image--contact .image--contact {
-    background-image: url("/images/marco_masik.jpg");
-    width: 300px;
-    height: 300px;
-    background-size: cover;
-    border-radius: 50%;
-    background-repeat: no-repeat;
-    background-position: 0 -30px; }
-  @media screen and (max-width: 768px) {
-    .container--contact .container--image--contact {
-      display: flex;
-      justify-content: center;
-      margin-top: 2.5em; } }
-  @media screen and (max-width: 415px) {
-    .container--contact .container--image--contact {
-      margin-top: 0; } }
-  .container--contact .container--text-contact {
-    padding-left: 2em; }
-    .container--contact .container--text-contact p {
-      font-size: 1.716em; }
-      .container--contact .container--text-contact p svg {
-        margin-bottom: -4px;
-        margin-right: .25em; }
-      @media screen and (max-width: 415px) {
-        .container--contact .container--text-contact p {
-          font-size: 1.25em; } }
-    @media screen and (max-width: 768px) {
-      .container--contact .container--text-contact {
-        padding-left: 0; } }
-  @media screen and (max-width: 768px) {
-    .container--contact {
-      flex-direction: column-reverse; } }
-
-/* Colors */
-/* Breakpoints for media queries*/
-/* Magic numbers */
+/*	mobile-margin
+	Calculates the general margin on mobile, according to the width of the title
+	((((((width of view) - (width of title)) / 2) - (indicator number to margin width)) / 2)
+*/
 .container--skills {
   height: calc(100vh - 12em);
   width: 100%;
@@ -145,6 +119,52 @@ span {
 /* Colors */
 /* Breakpoints for media queries*/
 /* Magic numbers */
+/*	mobile-margin
+	Calculates the general margin on mobile, according to the width of the title
+	((((((width of view) - (width of title)) / 2) - (indicator number to margin width)) / 2)
+*/
+.container--contact {
+  display: flex; }
+  .container--contact .container--image--contact .image--contact {
+    background-image: url("/images/marco_masik.jpg");
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: 0 -30px; }
+  @media screen and (max-width: 768px) {
+    .container--contact .container--image--contact {
+      display: flex;
+      justify-content: center;
+      margin-top: 2.5em; } }
+  @media screen and (max-width: 415px) {
+    .container--contact .container--image--contact {
+      margin-top: 0; } }
+  .container--contact .container--text-contact {
+    padding-left: 2em; }
+    .container--contact .container--text-contact p {
+      font-size: 1.716em; }
+      .container--contact .container--text-contact p svg {
+        margin-bottom: -4px;
+        margin-right: .25em; }
+      @media screen and (max-width: 415px) {
+        .container--contact .container--text-contact p {
+          font-size: 1.25em; } }
+    @media screen and (max-width: 768px) {
+      .container--contact .container--text-contact {
+        padding-left: 0; } }
+  @media screen and (max-width: 768px) {
+    .container--contact {
+      flex-direction: column-reverse; } }
+
+/* Colors */
+/* Breakpoints for media queries*/
+/* Magic numbers */
+/*	mobile-margin
+	Calculates the general margin on mobile, according to the width of the title
+	((((((width of view) - (width of title)) / 2) - (indicator number to margin width)) / 2)
+*/
 .container--start {
   height: 100vh;
   color: #ffffff; }
@@ -223,6 +243,10 @@ span {
 /* Colors */
 /* Breakpoints for media queries*/
 /* Magic numbers */
+/*	mobile-margin
+	Calculates the general margin on mobile, according to the width of the title
+	((((((width of view) - (width of title)) / 2) - (indicator number to margin width)) / 2)
+*/
 .container--works, .container--workpage {
   width: 100vw;
   height: 100vh; }
@@ -241,6 +265,10 @@ span {
 /* Colors */
 /* Breakpoints for media queries*/
 /* Magic numbers */
+/*	mobile-margin
+	Calculates the general margin on mobile, according to the width of the title
+	((((((width of view) - (width of title)) / 2) - (indicator number to margin width)) / 2)
+*/
 .container--backbutton {
   display: flex; }
   .container--backbutton svg {
@@ -256,6 +284,10 @@ span {
 /* Colors */
 /* Breakpoints for media queries*/
 /* Magic numbers */
+/*	mobile-margin
+	Calculates the general margin on mobile, according to the width of the title
+	((((((width of view) - (width of title)) / 2) - (indicator number to margin width)) / 2)
+*/
 .container--menu {
   padding: 0 6em 0 6em;
   background: #ffffff; }
@@ -322,6 +354,10 @@ span {
 /* Colors */
 /* Breakpoints for media queries*/
 /* Magic numbers */
+/*	mobile-margin
+	Calculates the general margin on mobile, according to the width of the title
+	((((((width of view) - (width of title)) / 2) - (indicator number to margin width)) / 2)
+*/
 .container--workitem {
   position: relative;
   border-radius: 2em;
@@ -401,6 +437,10 @@ span {
 /* Colors */
 /* Breakpoints for media queries*/
 /* Magic numbers */
+/*	mobile-margin
+	Calculates the general margin on mobile, according to the width of the title
+	((((((width of view) - (width of title)) / 2) - (indicator number to margin width)) / 2)
+*/
 @media screen and (max-width: 415px) {
   .container--workpage--outter .container--margin {
     padding: 0 0 0 0; } }
@@ -571,6 +611,10 @@ span {
 /* Colors */
 /* Breakpoints for media queries*/
 /* Magic numbers */
+/*	mobile-margin
+	Calculates the general margin on mobile, according to the width of the title
+	((((((width of view) - (width of title)) / 2) - (indicator number to margin width)) / 2)
+*/
 #navbar {
   transform: translateY(-150px);
   transition: transform 400ms ease-in;

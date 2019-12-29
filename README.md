@@ -1,3 +1,31 @@
+Portfolio website of web developer and front-end developer Marco Masik.
+
+This project is based on react and sass.
+
+
+## src/App.js
+Serves as a router between all available pages. 
+The pages are actually get displayed here.
+
+## src/components/pages
+Contains the build structure and content to the pages.
+Main .js files(eg. Start.js, Works.js, etc.) in the root folders of each pages are called in the routing in App.js.
+If the page is more complex, the folder is divided into further structures: content and modules.
+
+## src/components/ui
+Code to the reusable ui elements. The menu is defined here.
+
+
+SASS AND GULP
+Most of the different components have their own scss file, named respectively the same as the .js file name of the component.
+Variables and general sass rules can be found in src/components.
+The sass conversion to css is realised with gulp.
+The gulpfile.js edits all scss file in the components folder into one file that is src/main.css
+
+
+--------------------------------------------------------------------------------------------------
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
