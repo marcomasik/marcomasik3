@@ -6,7 +6,6 @@ Portfolio website of web developer and front-end developer Marco Masik.
 This project is based on react and sass.
 
 <br />
-<br />
 
 # Folder and File structure
 
@@ -23,14 +22,15 @@ If the page is more complex, the folder is divided into further structures: cont
 Code to the reusable ui elements. The menu is defined here.
 
 <br />
-<br />
 
-**SASS AND GULP**
+**SASS AND GULP** <br />
 Most of the different components have their own scss file, named respectively the same as the .js file name of the component.<br />
 Variables and general sass rules can be found in src/components.<br />
 The sass conversion to css is realised with gulp.<br />
 The gulpfile.js edits all scss file in the components folder into one file that is src/main.css
 
+<br />
+<br />
 
 --------------------------------------------------------------------------------------------------
 
