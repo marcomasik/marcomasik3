@@ -1,8 +1,3 @@
-
-Look at it in real -> https://www.marcomasik.com
-
-Portfolio website of web developer and front-end developer Marco Masik.
-
 This project is based on react and sass.
 
 <br />
