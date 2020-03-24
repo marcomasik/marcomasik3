@@ -22,6 +22,7 @@ import { Hungaroplant } from "./components/pages/Works/content/Hungaroplant.js";
 import { Farest } from "./components/pages/Works/content/Farest.js";
 import { Contact } from "./components/pages/Contact/Contact.js";
 
+import { Donate } from "./components/pages/Donate/Donate.js";
 
 /* Fading animation transition when switching to a page */
 const Fading = posed.div({
@@ -51,6 +52,7 @@ const App = () => (
                             <Route exact path="/works/hungaroplant" component={Hungaroplant} key="hungaroplant" />
                             <Route exact path="/works/farest" component={Farest} key="farest" />
                             <Route exact path="/contact" component={Contact} key="contact" />
+                            <Route exact path="/donate" component={Donate} key="donate" />
                         </Switch>
                     </Fading>
                 </PoseGroup>
