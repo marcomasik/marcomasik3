@@ -66,6 +66,48 @@ span {
 	Calculates the general margin on mobile, according to the width of the title
 	((((((width of view) - (width of title)) / 2) - (indicator number to margin width)) / 2)
 */
+.container--contact {
+  display: flex; }
+  .container--contact .container--image--contact .image--contact {
+    background-image: url("/images/marco_masik.jpg");
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: 0 -30px; }
+  @media screen and (max-width: 768px) {
+    .container--contact .container--image--contact {
+      display: flex;
+      justify-content: center;
+      margin-top: 2.5em; } }
+  @media screen and (max-width: 415px) {
+    .container--contact .container--image--contact {
+      margin-top: 0; } }
+  .container--contact .container--text-contact {
+    padding-left: 2em; }
+    .container--contact .container--text-contact p {
+      font-size: 1.716em; }
+      .container--contact .container--text-contact p svg {
+        margin-bottom: -4px;
+        margin-right: .25em; }
+      @media screen and (max-width: 415px) {
+        .container--contact .container--text-contact p {
+          font-size: 1.25em; } }
+    @media screen and (max-width: 768px) {
+      .container--contact .container--text-contact {
+        padding-left: 0; } }
+  @media screen and (max-width: 768px) {
+    .container--contact {
+      flex-direction: column-reverse; } }
+
+/* Colors */
+/* Breakpoints for media queries*/
+/* Magic numbers */
+/*	mobile-margin
+	Calculates the general margin on mobile, according to the width of the title
+	((((((width of view) - (width of title)) / 2) - (indicator number to margin width)) / 2)
+*/
 .container--skills {
   height: calc(100vh - 12em);
   width: 100%;
@@ -115,48 +157,6 @@ span {
     .container--skills {
       height: auto;
       padding-bottom: 4em; } }
-
-/* Colors */
-/* Breakpoints for media queries*/
-/* Magic numbers */
-/*	mobile-margin
-	Calculates the general margin on mobile, according to the width of the title
-	((((((width of view) - (width of title)) / 2) - (indicator number to margin width)) / 2)
-*/
-.container--contact {
-  display: flex; }
-  .container--contact .container--image--contact .image--contact {
-    background-image: url("/images/marco_masik.jpg");
-    width: 300px;
-    height: 300px;
-    background-size: cover;
-    border-radius: 50%;
-    background-repeat: no-repeat;
-    background-position: 0 -30px; }
-  @media screen and (max-width: 768px) {
-    .container--contact .container--image--contact {
-      display: flex;
-      justify-content: center;
-      margin-top: 2.5em; } }
-  @media screen and (max-width: 415px) {
-    .container--contact .container--image--contact {
-      margin-top: 0; } }
-  .container--contact .container--text-contact {
-    padding-left: 2em; }
-    .container--contact .container--text-contact p {
-      font-size: 1.716em; }
-      .container--contact .container--text-contact p svg {
-        margin-bottom: -4px;
-        margin-right: .25em; }
-      @media screen and (max-width: 415px) {
-        .container--contact .container--text-contact p {
-          font-size: 1.25em; } }
-    @media screen and (max-width: 768px) {
-      .container--contact .container--text-contact {
-        padding-left: 0; } }
-  @media screen and (max-width: 768px) {
-    .container--contact {
-      flex-direction: column-reverse; } }
 
 /* Colors */
 /* Breakpoints for media queries*/
@@ -456,14 +456,12 @@ span {
   position: relative;
   border-radius: 2em;
   border: 5px solid #000000;
-  width: 100%;
-  height: calc(100vh - 18em);
-  max-height: 32em; }
+  width: 100%; }
   .container--workpage--inner .container--workpage--content {
     display: flex; }
     .container--workpage--inner .container--workpage--content .container--workpage--video {
-      width: 50%;
-      padding: 2em; }
+      width: 80em;
+      padding: 6em 2em 2em 2em; }
       .container--workpage--inner .container--workpage--content .container--workpage--video video {
         width: 100%;
         border-radius: 2em; }
@@ -476,7 +474,7 @@ span {
         .container--workpage--inner .container--workpage--content .container--workpage--video {
           padding: 0 0 2em 0; } }
     .container--workpage--inner .container--workpage--content .container--workpage--text {
-      width: 50%;
+      flex-grow: 1;
       padding: 2em 2em 0 0; }
       .container--workpage--inner .container--workpage--content .container--workpage--text .title--workpage {
         text-align: center;
@@ -503,9 +501,8 @@ span {
         flex-direction: column; } }
   .container--workpage--inner .container--backbutton {
     position: absolute;
-    bottom: 0;
-    left: 2em;
-    bottom: 1em; }
+    top: 2em;
+    left: 2em; }
   @media screen and (max-width: 1200px) {
     .container--workpage--inner {
       height: auto;

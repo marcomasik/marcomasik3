@@ -79,7 +79,7 @@ class Works extends Component {
 								/>
 							</Link>
 
-							<Link to="/">
+							<Link to="/works/miles">
 								<WorkItem 
 									workItemImage="./images/MILES.png" 
 									titleWorkItem="MILES"

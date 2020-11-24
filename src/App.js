@@ -17,9 +17,9 @@ import { November } from "./components/pages/Works/content/November.js";
 import { Swarm } from "./components/pages/Works/content/Swarm.js";
 import { Borneo } from "./components/pages/Works/content/Borneo.js";
 import { Muskinn } from "./components/pages/Works/content/Muskinn.js";
-import { Languagestudio } from "./components/pages/Works/content/Languagestudio.js";
 import { Hungaroplant } from "./components/pages/Works/content/Hungaroplant.js";
 import { Farest } from "./components/pages/Works/content/Farest.js";
+import { Miles } from "./components/pages/Works/content/Miles.js";
 import { Contact } from "./components/pages/Contact/Contact.js";
 
 import { Donate } from "./components/pages/Donate/Donate.js";
@@ -48,9 +48,9 @@ const App = () => (
                             <Route exact path="/works/swarm" component={Swarm} key="swarm" />
                             <Route exact path="/works/borneo" component={Borneo} key="borneo" />
                             <Route exact path="/works/muskinn" component={Muskinn} key="muskinn" />
-                            <Route exact path="/works/languagestudio" component={Languagestudio} key="languagestudio" />
                             <Route exact path="/works/hungaroplant" component={Hungaroplant} key="hungaroplant" />
                             <Route exact path="/works/farest" component={Farest} key="farest" />
+                            <Route exact path="/works/miles" component={Miles} key="miles" />
                             <Route exact path="/contact" component={Contact} key="contact" />
                             <Route exact path="/donate" component={Donate} key="donate" />
                         </Switch>

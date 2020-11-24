@@ -48,10 +48,11 @@ class ContainerWorkPage extends Component {
 					</div>
 					<div className="container--margin">
 						<ContainerWorkPageInner className="container--workpage--inner">
+							<BackButton backButtonLinkTo="/works"/>
 							<div className="container--workpage--content">
-								<div className="container--workpage--video">
+								<div style={{width: this.props.videoWidth}} className="container--workpage--video">
 									<div className="title--workpage small-view">{this.props.titleWorkPage}</div>
-									<video autoPlay playsInline muted loop>
+									<video  autoPlay playsInline muted loop>
 										<source src={this.props.videoWorkPage} type="video/mp4" />
 									</video>
 								</div>
@@ -60,7 +61,7 @@ class ContainerWorkPage extends Component {
 									<div className="text--workpage">{this.props.textWorkPage}</div>
 								</div>
 							</div>
-							<BackButton backButtonLinkTo="/works"/>
+							
 						</ContainerWorkPageInner>
 					</div>
 				</div>
