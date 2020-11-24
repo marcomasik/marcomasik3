@@ -44,6 +44,7 @@ class Works extends Component {
 								<WorkItem 
 									workItemImage="./images/MILES.png" 
 									titleWorkItem="MILES"
+									darkerHover={true}
 									descriptionWorkItem={["Carsharing homepage", <br />, "Gatsby.js"]}
 								/>
 							</Link>

@@ -11,10 +11,7 @@ class BackButton extends Component {
 			<div className="container--backbutton">
 				<div className="link--svg">
 					<Link to={this.props.backButtonLinkTo}>
-						<IoMdArrowRoundBack />
-						<span>
-							Back
-						</span>
+						&#8592;
 					</Link>
 				</div>
 			</div>

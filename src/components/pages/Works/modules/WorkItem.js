@@ -27,7 +27,7 @@ class WorkItem extends Component {
 					</div>
 				</div>
 				<img className="image--workitem" src={this.props.workItemImage}/>
-				<div className="container--workitem-hover">
+				<div className={`container--workitem-hover ${this.props.darkerHover === true ? "container--workitem-hover--darker" : null}`}>
 				</div>
 			</div>
 			
