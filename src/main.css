@@ -462,6 +462,11 @@ span {
     .container--workpage--inner .container--workpage--content .container--workpage--video {
       width: 80em;
       padding: 6em 2em 2em 2em; }
+      .container--workpage--inner .container--workpage--content .container--workpage--video--mobile-video {
+        width: 50em; }
+        @media screen and (max-width: 415px) {
+          .container--workpage--inner .container--workpage--content .container--workpage--video--mobile-video {
+            padding: 0 1.4em 2em 1.4em !important; } }
       .container--workpage--inner .container--workpage--content .container--workpage--video video {
         width: 100%;
         border-radius: 2em; }
@@ -472,7 +477,8 @@ span {
           padding: 0 2em 0 2em; } }
       @media screen and (max-width: 415px) {
         .container--workpage--inner .container--workpage--content .container--workpage--video {
-          padding: 0 0 2em 0; } }
+          padding: 0 0 2em 0;
+          max-width: 100%; } }
     .container--workpage--inner .container--workpage--content .container--workpage--text {
       flex-grow: 1;
       padding: 2em 2em 0 0; }
@@ -503,6 +509,9 @@ span {
     position: absolute;
     top: 2em;
     left: 2em; }
+    @media screen and (max-width: 415px) {
+      .container--workpage--inner .container--backbutton {
+        top: 1.3em; } }
   @media screen and (max-width: 1200px) {
     .container--workpage--inner {
       height: auto;

@@ -28,6 +28,12 @@
     	.container--workpage--video {
     		width: 80em;
     		padding: 6em 2em 2em 2em;
+            &--mobile-video {
+                width: 50em;
+                @media screen and (max-width: $break-mobile-max) {
+                    padding: 0 1.4em 2em 1.4em !important;
+                }
+            }
     		video{
     			width: 100%;
                 border-radius: 2em;
@@ -39,6 +45,7 @@
             }
             @media screen and (max-width: $break-mobile-max) {
                 padding: 0 0 2em 0;
+                max-width: 100%;
             }
     	}
     	.container--workpage--text {
@@ -76,6 +83,9 @@
     	position: absolute;
     	top: 2em;
     	left: 2em;
+        @media screen and (max-width: $break-mobile-max) {
+            top: 1.3em;
+        }
     }
     @media screen and (max-width: $break-large) {
         height: auto;

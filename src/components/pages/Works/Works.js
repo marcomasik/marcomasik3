@@ -39,6 +39,15 @@ class Works extends Component {
 					<div className="container--margin">
 						<div className="container--workitem-rows">
 
+
+							<Link to="/works/miles">
+								<WorkItem 
+									workItemImage="./images/MILES.png" 
+									titleWorkItem="MILES"
+									descriptionWorkItem={["Carsharing homepage", <br />, "Gatsby.js"]}
+								/>
+							</Link>
+
 							<Link to="/works/november">
 								<WorkItem 
 									workItemImage="./images/november.png" 
@@ -54,6 +63,7 @@ class Works extends Component {
 									descriptionWorkItem={["Crypto platform homepage", <br />, "Bootstrap"]}
 								/>
 							</Link>
+
 
 							<Link to="/works/farest">
 								<WorkItem 
@@ -79,13 +89,6 @@ class Works extends Component {
 								/>
 							</Link>
 
-							<Link to="/works/miles">
-								<WorkItem 
-									workItemImage="./images/MILES.png" 
-									titleWorkItem="MILES"
-									descriptionWorkItem={["Carsharing homepage", <br />, "Gatsby.js"]}
-								/>
-							</Link>
 
 						</div>
 					</div>

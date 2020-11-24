@@ -50,7 +50,7 @@ class ContainerWorkPage extends Component {
 						<ContainerWorkPageInner className="container--workpage--inner">
 							<BackButton backButtonLinkTo="/works"/>
 							<div className="container--workpage--content">
-								<div style={{width: this.props.videoWidth}} className="container--workpage--video">
+								<div className={`container--workpage--video container--workpage--video${this.props.mobileVideo === "yes" ? "--mobile-video" : null}`}>
 									<div className="title--workpage small-view">{this.props.titleWorkPage}</div>
 									<video  autoPlay playsInline muted loop>
 										<source src={this.props.videoWorkPage} type="video/mp4" />
