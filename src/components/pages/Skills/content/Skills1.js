@@ -17,13 +17,12 @@ class Skills1 extends Component {
 			<ContainerSkills 
 				skillType="container--skills--row" 
 				skillContent={<React.Fragment>
-					<SkillText titleSkillText="Front-end development and web app design" 
-								textSkillText="Creating framework based web applications, that work efficiently on complex business tasks
+					<SkillText titleSkillText="Web app development" 
+								textSkillText="Creating Javascript framework based web applications, that work efficiently on complex business tasks
 								and have an opulent look." />
-					<SkillText titleSkillText="Customized wordpress and squarespace templates" 
-								textSkillText="Developing wordpress themes and squarespace templates from scratch or modify existing ones to 
-								meet your needs." />
-					<SkillText titleSkillText="E-commerce development, setup and deployment" 
+					<SkillText titleSkillText="CMS knowledge" 
+								textSkillText="Implement blazing fast headless CMSs with state of the art frontend frameworks or develop new wordpress themes." />
+					<SkillText titleSkillText="E-commerce background" 
 								textSkillText="I have experience in setting up e-commerce systems and in creating unique looking 
 								webshops using different platforms." />
 				</React.Fragment>}
