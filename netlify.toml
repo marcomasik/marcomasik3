@@ -1,0 +1,4 @@
+[build]
+base = "marcomasik3/"
+publish = "marcomasik3/build/"
+command = "CI= npm run build"
