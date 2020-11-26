@@ -2,7 +2,7 @@
   "name": "marcomasik2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://marcomasik.github.io/marcomasik2",
+  "homepage": ".",
   "dependencies": {
     "gulp": "^4.0.2",
     "mdbreact": "^4.22.0",
