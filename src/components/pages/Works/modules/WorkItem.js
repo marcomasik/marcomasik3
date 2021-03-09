@@ -10,6 +10,8 @@ Values are set in Works.js to these props.
  */
 
 import React, { Component } from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 class WorkItem extends Component {
 	
@@ -26,7 +28,10 @@ class WorkItem extends Component {
 						{this.props.descriptionWorkItem}
 					</div>
 				</div>
-				<img className="image--workitem" src={this.props.workItemImage}/>
+				 <LazyLoadImage
+				    //wrapperClassName="image--workitem"
+				    effect="blur"
+				    src={this.props.workItemImage} />
 				<div className={`container--workitem-hover ${this.props.darkerHover === true ? "container--workitem-hover--darker" : null}`}>
 				</div>
 			</div>

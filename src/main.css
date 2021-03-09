@@ -359,6 +359,9 @@ span {
 	Calculates the general margin on mobile, according to the width of the title
 	((((((width of view) - (width of title)) / 2) - (indicator number to margin width)) / 2)
 */
+.lazy-load-image-background {
+  display: block !important; }
+
 .container--workitem {
   position: relative;
   border-radius: 2em;

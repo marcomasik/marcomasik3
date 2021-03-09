@@ -1,5 +1,9 @@
 @import "../../../variables";
 
+.lazy-load-image-background {
+  display: block !important;
+}
+
 .container--workitem {
 	position: relative;
 	border-radius: 2em;
