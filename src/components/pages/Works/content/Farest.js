@@ -8,7 +8,7 @@ class Farest extends Component {
 		return (
 
 			<ContainerWorkPage 
-				videoWorkPage="/videos/farest3.mov"
+				videoWorkPage="/videos/farest3.mp4"
 				titleWorkPage="Farest"
 				textWorkPage={["Farest is an adventure travel agency start up, focusing on young millenials, offering niche locations and sports.", 
 								<ul>
