@@ -52,8 +52,8 @@ class ContainerWorkPage extends Component {
 							<div className="container--workpage--content">
 								<div className={`container--workpage--video container--workpage--video${this.props.mobileVideo === "yes" ? "--mobile-video" : null}`}>
 									<div className="title--workpage small-view">{this.props.titleWorkPage}</div>
-									<video  autoPlay playsInline muted loop>
-										<source src={`${this.props.videoWorkPage}#t=0.5`} type="video/mp4" />
+									<video  autoPlay playsInline muted loop poster="./images/loading-opaque.gif">
+										<source src={`${this.props.videoWorkPage}#t=0.1`} type="video/mp4" />
 									</video>
 								</div>
 								<div className="container--workpage--text">
