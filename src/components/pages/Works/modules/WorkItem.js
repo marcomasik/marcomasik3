@@ -27,7 +27,7 @@ class WorkItem extends Component {
 						{this.props.descriptionWorkItem}
 					</div>
 				</div>
-				<LazyLoad  placeholder="./images/marco_masik.jpg" >
+				<LazyLoad  width={350} height={216} placeholder="./images/loading-opaque.gif" >
 					<img className="image--workitem" src={this.props.workItemImage}/>
 				</LazyLoad>
 				<div className={`container--workitem-hover ${this.props.darkerHover === true ? "container--workitem-hover--darker" : null}`}>
