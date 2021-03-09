@@ -10,7 +10,6 @@ Values are set in Works.js to these props.
  */
 
 import React, { Component } from 'react';
-import LazyLoad from 'react-lazyload';
 
 class WorkItem extends Component {
 	
@@ -27,9 +26,7 @@ class WorkItem extends Component {
 						{this.props.descriptionWorkItem}
 					</div>
 				</div>
-				<LazyLoad  width={350} height={216} placeholder="./images/loading-opaque.gif" >
-					<img className="image--workitem" src={this.props.workItemImage}/>
-				</LazyLoad>
+				<img className="image--workitem" src={this.props.workItemImage}/>
 				<div className={`container--workitem-hover ${this.props.darkerHover === true ? "container--workitem-hover--darker" : null}`}>
 				</div>
 			</div>
